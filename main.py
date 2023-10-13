@@ -1,3 +1,12 @@
+def hello():
+    print('Hello Wendy!')
+hello()
+
+def pack(a,b,c):
+    return[a,b,c]
+print(pack('rabbit',2,3))
+
+
 def eatLunch(list):
     for x in range(len(foods)):
         if len(list) >= 1:
